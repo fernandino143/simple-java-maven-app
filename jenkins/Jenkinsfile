@@ -26,5 +26,10 @@ pipeline {
                 sh 'echo whatevs'
             }
         }
+        stage('Wohoo') {
+            steps {
+                sh 'date'
+            }
+        }
     }
 }
