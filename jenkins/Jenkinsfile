@@ -26,7 +26,7 @@ pipeline {
                 sh 'echo whatevs'
             }
         }
-        stage('Wohoo') {
+        stage('CantHaveDuplicateOrSpecialChars') {
             steps {
                 sh 'date'
             }
