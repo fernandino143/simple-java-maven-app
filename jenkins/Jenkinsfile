@@ -31,5 +31,10 @@ pipeline {
                 sh 'date'
             }
         }
+        stage('InsideTheNewBranch') {
+            steps {
+                sh 'echo worked'
+            }
+        }
     }
 }
